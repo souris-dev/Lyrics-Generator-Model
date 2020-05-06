@@ -11,7 +11,7 @@ Soon, support for poem generation and lyrics of other artists will also be added
 Currently, the lyrics are tokenized by word, and the architecture of the model is as follows:
 
 1. Embedding (100 values for each token)
-2. LSTM (acutally, CuDNNLSTM)
+2. LSTM (actually, CuDNNLSTM)
 3. LSTM (this layer can receive state info from the previous LSTM layer)
 4. Dropout
 5. Dense (fully-connected layer)
