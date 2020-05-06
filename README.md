@@ -15,3 +15,5 @@ Currently, the lyrics are tokenized by word, and the architecture of the model i
 3. LSTM (this layer can receive state info from the previous LSTM layer)
 4. Dropout
 5. Dense (fully-connected layer)
+
+__Note__: This notebook was made to run in Google Colab and needs to mount Google Drive at a point. That line may have to be changed to run it locally. Also, as the model uses CuDNNLSTM that work only on GPUs, this notebook needs to be run on a GPU-equipped machine to enable successful training of the model. CuDNNLSTM is effectively a faster version of LSTMs for use on GPUs.
