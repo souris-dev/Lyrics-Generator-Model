@@ -6,7 +6,7 @@ Currently, only Taylor Swift's style is available here, as the dataset for her s
 Soon, support for poem generation and lyrics of other artists will also be added.
 
 
-# Model Architecture:
+## Model Architecture:
 
 Currently, the lyrics are tokenized by word, and the architecture of the model is as follows:
 
