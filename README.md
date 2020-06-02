@@ -1,5 +1,5 @@
 # Lyrics Generator Model
-A lyrics generation model using an RNN with stacked LSTMs (CuDNNLSTMs), implemented using Keras.
+A lyrics generation model using stacked LSTMs (CuDNNLSTMs), implemented using Keras.
 
 Currently, only Taylor Swift's style is available here, as the dataset for her songs was easily available [here](https://www.kaggle.com/PromptCloudHQ/taylor-swift-song-lyrics-from-all-the-albums) at Kaggle.
 
